@@ -14,12 +14,12 @@
 }
 
 .nav-custom {
-	background-color: #1f2324;
+    background-color: #1f2324;
     min-height: 60px;
 }
 
 .nav-two {
-	background-color: #2b2f30;
+    background-color: #2b2f30;
 }
 
 input[type="search"] { 
@@ -33,17 +33,17 @@ input[type="search"] {
 }
 
 .news-app {
-	background-color: #212529;
-	color: #fff;
+    background-color: #212529;
+    color: #fff;
 }
 
 .news-div {
-	margin-bottom: 10px;
-	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 main {
-	display: block;
+    display: block;
     margin: 0 auto;
     max-width: 1100px;
     position: relative;
@@ -51,5 +51,5 @@ main {
 }
 
 .text-date {
-	color: #8a8a8a;
+    color: #8a8a8a;
 }
