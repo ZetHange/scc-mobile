@@ -14,8 +14,8 @@
 }
 
 .nav-custom {
-    background-color: #1f2324;
-    min-height: 60px;
+	margin-bottom: 10px!important;
+    min-height: 65px;
 }
 
 .nav-two {
@@ -38,7 +38,6 @@ input[type="search"] {
 }
 
 .news-div {
-    margin-bottom: 10px;
     margin-top: 10px;
 }
 
