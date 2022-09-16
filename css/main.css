@@ -22,6 +22,11 @@
     background-color: #2b2f30;
 }
 
+.scc-color {
+	background-color: #191c21!important;
+	color: #fff!important;
+}
+
 input[type="search"] { 
     background: #212529;
 }

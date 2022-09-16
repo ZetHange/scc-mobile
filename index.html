@@ -18,7 +18,7 @@
          </div>
             <div class="d-flex position-absolute bottom-0 start-50 translate-middle-x">
                <a class="nav-link active text-white" href="/register">Регистрация</a>
-               <button class="btn btn-light">Войти</button>
+               <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModals">Войти</button>
             </div>
       </nav>
       <nav class="important nav-two navbar navbar-expand-lg navbar-dark">
@@ -126,5 +126,32 @@
             </div>
          </div>
       </main>
+	  <!-- Login Modals -->
+	  <div class="modal fade scc-color" id="loginModals" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content" style="background-color:#4d535c;">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Войти</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+				<form>
+				  <div class="mb-3">
+					<label for="recipient-name" class="col-form-label">Логин:</label>
+					<input type="text" class="form-control" id="login">
+				  </div>
+				  <div class="mb-3">
+					<label for="message-text" class="col-form-label">Пароль:</label>
+					<input type="text" class="form-control" id="pass">
+				  </div>
+				</form>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+				<button type="button" class="btn btn-primary">Войти</button>
+			  </div>
+			</div>
+		  </div>
+	  </div>
    </body>
 </html>
