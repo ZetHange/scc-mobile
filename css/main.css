@@ -23,8 +23,8 @@
 }
 
 .scc-color {
-	background-color: #191c21!important;
-	color: #fff!important;
+	background-color: #191c21;
+	color: #fff;
 }
 
 input[type="search"] { 
@@ -38,20 +38,27 @@ input[type="search"] {
 }
 
 .news-app {
-    background-color: #212529;
+    background-color: #2d3136;
     color: #fff;
 }
 
-.news-div {
-    margin-top: 10px;
+#news {
+    display: block;
+    max-width: 70%;
+    padding-top: 5px;
 }
 
-main {
+#additionally {
+    display: block;
+    max-width: 25%;
+    padding-top: 5px;
+}
+
+#approgovno {
     display: block;
     margin: 0 auto;
     max-width: 1100px;
-    position: relative;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 .text-date {
