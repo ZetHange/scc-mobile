@@ -55,7 +55,7 @@
 .important {
 	max-width: 1100px;
 	padding: 0 15px;
-	margin: 0 auto;
+	margin: auto;
 }
 .news-app {
 	background-color: #2d3136;
