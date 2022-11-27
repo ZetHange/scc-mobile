@@ -6,8 +6,6 @@
 		background-position: center top;
    }
 	#news {
-		display: block;
-		max-width: 70%;
 		padding-top: 5px;
    }
 	#additionally {
@@ -30,8 +28,6 @@
 		background-color: #191c21!important;
    }
 	#news {
-		display: block;
-		max-width: 100%;
 		padding-top: 5px;
    }
 	#additionally {
